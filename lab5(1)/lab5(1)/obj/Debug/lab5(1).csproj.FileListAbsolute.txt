@@ -1,6 +1,0 @@
-D:\projects\lab5(1)\lab5(1)\bin\Debug\lab5(1).exe.config
-D:\projects\lab5(1)\lab5(1)\bin\Debug\lab5(1).exe
-D:\projects\lab5(1)\lab5(1)\bin\Debug\lab5(1).pdb
-D:\projects\lab5(1)\lab5(1)\obj\Debug\lab5(1).csprojResolveAssemblyReference.cache
-D:\projects\lab5(1)\lab5(1)\obj\Debug\lab5(1).exe
-D:\projects\lab5(1)\lab5(1)\obj\Debug\lab5(1).pdb
