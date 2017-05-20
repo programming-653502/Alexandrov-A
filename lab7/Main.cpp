@@ -28,8 +28,8 @@ int main()
 
 	while (!feof(timetable))
 	{
-		all_flights.push_back(NULL);
-		all_flights[counter] = new Flight;
+		flights.push_back(NULL);
+		flights[counter] = new Flight;
 		fscanf(timetable, "%d %s %s %s %s %s %d %d %d %d %d %d %d %d %d %d\n", &(all_flights[counter]->flight_number), &(all_flights[counter]->airplane_type), &(all_flights[counter]->way.starting_point), &(all_flights[counter]->way.waypoint1), &(all_flights[counter]->way.waypoint2), &(all_flights[counter]->way.endpoint), &(all_flights[counter]->days.hours), &(all_flights[counter]->days.minutes), &(all_flights[counter]->days.days[0]), &(all_flights[counter]->days.days[1]), &(all_flights[counter]->days.days[2]), &(all_flights[counter]->days.days[3]), &(all_flights[counter]->days.days[4]), &(all_flights[counter]->days.days[5]), &(all_flights[counter]->days.days[6]), &(all_flights[counter]->seats_number));
 		for (int j = 0; j < 7; j++)
 		{
